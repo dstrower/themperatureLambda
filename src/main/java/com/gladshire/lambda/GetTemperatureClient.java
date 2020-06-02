@@ -7,6 +7,8 @@ import com.amazonaws.services.dynamodbv2.document.Item;
 import com.amazonaws.services.dynamodbv2.document.Table;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
+import com.gladshire.model.HttpQuerystringRequest;
+import com.gladshire.model.HttpTemperatureResponse;
 import com.gladshire.model.Temperature;
 
 public class GetTemperatureClient

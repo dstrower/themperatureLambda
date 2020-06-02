@@ -1,6 +1,5 @@
-package com.gladshire.lambda;
+package com.gladshire.model;
 
-import com.gladshire.model.Temperature;
 import com.google.gson.Gson;
 import java.util.HashMap;
 import java.util.Map;

@@ -1,19 +1,26 @@
-package com.gladshire.lambda;
+package com.gladshire.model;
+
+import com.google.gson.Gson;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
-public class HttpResponse {
+public class HttpCityResponse {
 
   private String body;
   private String statusCode = "200";
   private Map<String, String> headers = new HashMap<>();
 
-  public HttpResponse() {
+  public HttpCityResponse() {
     super();
     this.headers.put("Content-Type", "application/json");
   }
 
-  
+  public HttpCityResponse(List<String> cList) {
+    this();
+    Gson gson = new Gson();
+    this.body = gson.toJson(cList);
+  }
 
   public String getBody() {
     return body;

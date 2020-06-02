@@ -15,6 +15,8 @@ import com.amazonaws.services.dynamodbv2.document.utils.ValueMap;
 import com.amazonaws.services.dynamodbv2.model.ReturnValue;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
+import com.gladshire.model.HttpRequest;
+import com.gladshire.model.HttpResponse;
 import com.gladshire.model.Temperature;
 import com.google.gson.Gson;
 

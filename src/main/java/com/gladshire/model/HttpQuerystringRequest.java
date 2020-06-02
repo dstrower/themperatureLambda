@@ -1,4 +1,4 @@
-package com.gladshire.lambda;
+package com.gladshire.model;
 
 import java.util.Map;
 
